@@ -11,3 +11,6 @@ window.addEventListener('scroll',function(){
 window.addEventListener(`load`,function() {
   toTopDiv.style.display=`none`;
 });
+
+
+aWatchProte =3.45;
