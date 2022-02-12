@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+}
+.title{
+  background-color: purple;
+  color: pink;
+  text-align: center;
+}
+.link{
+  background: darkgray;
+  color: purple;
+  text-decoration: none;
+  padding:10px 20px;
+}
+.link:hover{
+  background-color: purple;
+  color:darkgray;
+  box-shadow: 0px 0px 3px 1px purple;
+}
+.modalWindow{
+  background-color: rgba(150,150,150,0.6);
+  position: fixed;
+  top: 0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  opacity: 0;
+  pointer-events: none;
+}
+.modalWindow:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in 0.5s;
+}
+.content{
+  width: 550px;
+  height: 450px;
+  background-color: white;
+  margin: auto;
+  margin-top: 100px;
+  position: relative;
+}
+.close{
+  background-color: lightgray;
+  color:black;
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-weight:600;
+  text-decoration: none;
+
+}
+.close:hover{
+  background-color:darkgray;
+  color: white;
+}

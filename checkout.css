@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+.page{
+  width: 300vh;
+  height:500vh;
+
+  background-color: lightgray;
+}
+.body{
+  background-color: pink;
+}
+.page p{
+  font-size: 1.5em;
+  color:red;
+}
+.label{
+  width: 300vh;
+  height:300vh;
+  font-family: fantasy;
+  color:pink;
+
+}
+.h1{
+  font-family: fantasy;
+  color:pink;
+
+
+}
+.form{
+  background-color: pink;
+}
+.submitbtn:hover{
+  background-color: pink;
+  color:white;
+
+}
+.submitbtn{
+  float: right;
+  background-color: gray;
+}
+.thankyou .confrimation{
+  text-align: center;
+  text-shadow: 0px 0px 10px 15px pink;
+  color:blue;
+}
+.typage{
+  width: 100vh;
+  height: 300vh;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 150px;
+  text-align: center;
+  color:pink;
+
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Jingwen Guan - Project 1</title>
+    <link rel="stylesheet" href="project1.css">
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+     <style media="screen">
+
+     </style>
+
+
+     <div class="slideshow">
+       <div class="slide_wrapper5">
+         <div class="slidetext">  <p>Free Return Within 30 Days No Extra Shipping Fee</p>  </div>
+
+         <div class="slidetext">  <p>Join Membership For Latest Updates And Sales </p></div>
+         <div class="slidetext">  <p>Free Shipping Over $50 In United State Of America</p>  </div>
+         <div class="slidetext">  <p>Money Back Grareendie</p></div>
+       </div>
+     </div>
+
+
+
+  <!-- <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head> -->
+  <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script><body>
+
+    <div class="nav nav-tabs">
+ <a href="project1.html" class="nav-item nav-link active">Home</a>
+ <a href="earring.html" class="nav-item nav-link">Earring</a>
+ <a href="watchaccessories.html" class="nav-item nav-link">Watch's band</a>
+ <a href="aboutUs.html" class="nav-item nav-link">Contact Us</a>
+ </div>
+
+
+
+ <form action="thankyou.html" method="POST">
+  <!-- <form action="{{url_for('thankyou')}}" method="POST"> -->
+    <fieldset style="width:60%;">
+      <legend>CHECKOUT</legend>
+      <label>Items in your bag: </label>
+        <p id='pName'></p>
+        <p id='pPrice'></p>
+
+      <script type="text/javascript">
+        console.log(localStorage);
+        let pName = document.querySelector('#pName');
+        let pPrice = document.querySelector('#pPrice');
+        let names = JSON.parse(localStorage.getItem('products'));
+        let prices = JSON.parse(localStorage.getItem('prices'));
+        console.log(names);
+        console.log(prices);
+        for(let i = 0; i < names.length; i++){
+          console.log("Price: " + prices[i]);
+          console.log("Name: " + names[i]);
+          let newItem = document.createElement("li");
+          newItem.textContent=names[i].valueOf() + " Price: " + prices[i].valueOf();
+          pName.appendChild(newItem);
+        }
+        let quantity = localStorage.getItem('totalItems');
+        let totalCost = localStorage.getItem('totalPrice');
+        pPrice.innerHTML = `Items:${quantity} Total: ${totalCost}`
+      </script>
+      <label for="userName">Enter userName <input type="text" name="usrName" placeholder="Type your name.."></label>
+      <label for="email">Enter email address: <input type="text" name="email" placeholder="Type your email address..."></label>
+      <input type="submit" value="Check Out" style="margin-top:2em;" onclick="localStorage.clear();"></input>
+    </fieldset>
+
+
+  </form>
+  <div class="container">
+</div>
+
+
+
+
+
+    <!--
+    <p>add 2 js application ,each js has event listener and one must hava a conditon statement or loop</p> -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+   <script src="project1.js" type="text/javascript"></script>
+  <script type="text/javascript">(function(){window['__CF$cv$params']={r:'6db98f33be7232ca',m:'QFye41RkNx.w._edZ8POwvmUXAswSul1tgbl7GIrgrQ-1644540378-0-AVjNZ9H2hc0SxNitY49Ves9ktKTOgIDTEQap7NBfmSKqAQVQgZyGS1Dk3bJ44C09GLlTyFQHw0jnafUNBIIclKcoVk71jreqtpau3YMKvfcC+KUvxGTnMNn314TbE+pCWO3ivdZ4d++hqvh549lraJcwHr+yqkoUIvAFmO3GvqSI7QvsGdFWCQu3MbAGzKZ/Xvi3wj62tFHKWbB1qOe86Zs=',s:[0x7539e7bb27,0x04292a1908],}})();</script>
+  <footer class="infoSection">
+
+    <br>
+    <br>
+    <br>
+    <p class="location">Location: New York, United States <br>PoP Fast Shop has been an eBay member since May 02, 2018</p>
+    <figure class="sociaIcon">
+      <a href="https://www.ebay.com/str/popfastbuy">
+        <img
+          src="images/ebay.png"
+          alt="ebayicon"
+          width="50px"
+          target="_blank"
+        />
+      </a>
+      <a href="https://www.tiktok.com/@ebay?" target="_blank"
+        ><img src="images/tiktok.png" width="50px" alt="Connect to tiktok"
+      /></a>
+      <a href="https://www.instagram.com/pop_fast_buy/" target="_blank"
+        ><img src="images/ins.jfif" width="50px" alt="Connect to Instergram"
+      /></a>
+      <a href="https://www.youtube.com/c/eBay" target="_blank"
+        ><img src="images/youtube.png" width="50px" alt="Connect to tiktok"
+      /></a>
+      <a href="mailto:lillian222b@gmail.com"
+        ><img src="images/email.png" alt="Email to" width="50px"
+      /></a>
+    </figure>
+    <p class="more">26 Followers <br>
+  98% Positive feedback <br>
+  979 Items sold</p>
+  <br>
+  <br>
+  <br>
+  <hr>
+  </footer>
+</div>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dc329f05a738c3b',m:'IFv.5Qy7GRvbs.s7RJf5TKpYFApyMCaSrng0ZiqYA4c-1644641088-0-AUk5ItsdTKxHN669j7fpAFBufNdKUG/CDe8qtSn4qYd1bRMHjs/YEKebE18HbVvgVMaR/Fm4mVwRZheiTqh7kC2ZDS27QsibU1psSaHOsqcMU2qGZQS5saHF5cqqWcTt2/np0RuZNPXlphLqcQYc/taMzeSrz8EPBDH1nLID2qDmcHIIwXk1UJFn235WHITZdfkT+0GyCh/TBhofTMPB3C4=',s:[0x6492fd5a86,0x9dbc82b945],}})();</script></body>
+</html>
