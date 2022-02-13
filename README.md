@@ -1,2 +1,318 @@
 &copy; Copyright 2022 Jingwen Guan PoP_Fast_Buy.html <br>
 #EverUp Micro-Credential Program (NY Jobs CEO Council and CUNY)
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Jingwen Guan - Project 1</title>
+    <link rel="stylesheet" href="project1.css">
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+     <style media="screen">
+
+     </style>
+
+
+     <div class="slideshow">
+       <div class="slide_wrapper5">
+         <div class="slidetext">  <p>Free Return Within 30 Days No Extra Shipping Fee</p>  </div>
+
+         <div class="slidetext">  <p>Join Membership For Latest Updates And Sales </p></div>
+         <div class="slidetext">  <p>Free Shipping Over $50 In United State Of America</p>  </div>
+         <div class="slidetext">  <p>Money Back Guaranteed</p></div>
+       </div>
+     </div>
+
+
+
+  <!-- <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head> -->
+  <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script>
+    <div class="nav nav-tabs">
+      <a href="index.html" class="nav-item nav-link active">Home</a>
+      <a href="earring.html" class="nav-item nav-link">Earring</a>
+      <a href="watchaccessories.html" class="nav-item nav-link">Watch Accessories</a>
+      <a href="aboutUs.html" class="nav-item nav-link">Contact Us</a>
+    </div>
+    <div class="container2">
+
+      <img src="images/cbubble.png" alt="image of cartoon" class="fc1">
+      <img src="images/cbubble.png" alt="image of cartoon" class="fc2">
+      <img src="images/pbubble.png" alt="image of cartoon" class="fc3">
+      <img src="images/pbubble.png" alt="image of cartoon" class="fc4">
+      <img src="images/heart.png" alt="image of cartoon" class="fc5">
+      <img src="images/pbubble.png" alt="image of cartoon" class="fc6">
+      <img src="images/heart.png" alt="image of cartoon" class="fc7">
+      <img src="images/pbubble.png" alt="image of cartoon" class="fc8">
+      <img src="images/sbubble.png" alt="image of cartoon" class="fc9">
+      <img src="images/sbubble.png" alt="image of cartoon" class="fc10">
+      <img src="images/sbubble2.png" alt="image of cartoon" class="fc11">
+      <img src="images/heart.png" alt="image of cartoon" class="fc12">
+
+
+    </div>
+
+
+
+
+
+ <header class='jumbotron jumbotron-fluid'>
+   <div class="display-2 mb-2 title"><strong>Pop</strong> Fast <strong> Buy </strong></div>
+
+  </div>
+</header>
+<div class='container-fluid'>
+  <div class="row">
+
+    <div class=" col-md-6 center-block">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="overlayImage" style="background-image:url(images/2.jpg)"></div>
+        <div class="carousel-container "></div>
+      </div>
+      <div class="carousel-item">
+        <div class="overlayImage " style="background-image:url(images/er6.jpg)"></div>
+        <div class="carousel-container "></div>
+      </div>
+      <div class="carousel-item">
+        <div class="overlayImage " style="background-image:url(images/ger1.jpg)"></div>
+        <div class="carousel-container "></div>
+      </div>
+      <div class="carousel-item">
+        <div class="overlayImage" style="background-image:url(images/p8.jpg)"></div>
+        <div class="carousel-container"></div>
+      </div>
+    </div>
+    <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+      <span class="sr-only">Previous</span>
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+      <span class="sr-only">Next</span>
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+  </div>
+    </div>
+  </div>
+   <!-- <div class="slideshow4">
+     <div class="slide-wrapper4">
+       <div class="show"><img src="images/2.jpg" alt="picture of item"> </div>
+         <div class="show"><img src="images/er6.jpg" alt="picture of item"> </div>
+         <div class="show"><img src="images/ger1.jpg" alt="picture of item"> </div>
+         <div class="show"><img src="images/p8.jpg" alt="picture of item"> </div>
+     </div>
+   </div> -->
+
+<br>
+<br><br>
+<br>
+<div class="showCase">
+
+  <div class="row">
+ <section class="col-lg-2 mr-auto" >
+<a href="#openWModal" id="product1" onclick="changeModalInfo(this.id)">
+ <img src="images/3.jpg" alt="ScreenProtector"  > </a>
+ <h5>3D Curved Full Screen Protector</h5>
+<p><em>For Apple Watch iWatch 7</em></p>
+<p class="price">Sale $3.45</p>
+ </section>
+
+ <section class="col-lg-2 ml-auto mr-auto" >
+ <a href="#openWModal" id="product2" onclick="changeModalInfo(this.id)">
+ <img src="images/appleb.jpg" alt="sample image"  > </a>
+ <h5>Muliplies Color Watch band</h5>
+ <p><em>For Apple Watch iWatch 7</em></p>
+ <p class="price">$7.50</p>
+ </section>
+
+ <section class="col-lg-2  ml-auto mr-auto" >
+ <a href="#openWModal" id="product3" onclick="changeModalInfo(this.id)">
+ <img src="images/p1.jpg" alt="Multi Pack Wristband"  > </a>
+ <h5>Value Pack Wristbands</h5>
+ <p><em>Buy two get one free!</em></p>
+ <p class="price">$9.50</p>
+ </section>
+<!-- </div> -->
+
+<!-- <div class="row">  -->
+
+<section class="col-lg-2 ml-auto mr-auto" >
+<a href="#openWModal" id="product4" onclick="changeModalInfo(this.id)">
+<img src="images/wb2.jpg" alt="sample image"  > </a>
+<h5>4 Colors Samsung Watch 4 band</h5>
+<p><em>41mm 45mm</em></p>
+<p class="price">$7.50</p>
+</section>
+
+<section class="col-lg-2 ml-auto" >
+<a href="#openWModal" id="product5" onclick="changeModalInfo(this.id)">
+<img src="images/wb.jpg" alt="sample image"  > </a>
+<h5></h5>
+<p><em>Purple wrist band</em></p>
+<p class="price">$12.00</p>
+</section>
+
+
+
+
+</div><!-- end of row -->
+<br>
+<hr>
+<br>
+<br>
+<br>
+<div class="row">
+  <section class="col-lg-2 mr-auto" >
+ <a href="#openWModal" id="product6" onclick="changeModalInfo(this.id)">
+  <img src="images/cer1.jpg" alt="Ribbon Earrings"  > </a>
+  <h5>Ribbon Earrings</h5>
+ <p><em>Handmade!</em></p>
+ <p class="price">Sale $5.00</p>
+  </section>
+
+  <section class="col-lg-2 ml-auto mr-auto" >
+  <a href="#openWModal" id="product7" onclick="changeModalInfo(this.id)">
+  <img src="images/er1.jpg" alt="Small Hoop Earrings"  > </a>
+  <h5>Small Hoop Earrings</h5>
+  <p><em>5mm Small hoops</em></p>
+  <p class="price">$4.50</p>
+  </section>
+
+  <section class="col-lg-2 ml-auto mr-auto" >
+  <a href="#openWModal" id="product8" onclick="changeModalInfo(this.id)">
+  <img src="images/cer2.jpg" alt="Pearl Earrings"  > </a>
+  <h5>Earrings</h5>
+  <p><em>USA stock</em></p>
+  <p class="price">$4.50</p>
+  </section>
+ <!-- </div> -->
+
+ <!-- <div class="row">  -->
+
+ <section class="col-lg-2 ml-auto mr-auto" >
+ <a href="#openWModal" id="product9" onclick="changeModalInfo(this.id)">
+ <img src="images/er5.jpg" alt="Gemstone Earrings"  > </a>
+ <h5>Brilliant Stones</h5>
+ <p><em></em></p>
+ <p class="price">$17.50</p>
+ </section>
+
+ <section class="col-lg-2 ml-auto" >
+ <a href="#openWModal" id="product10" onclick="changeModalInfo(this.id)">
+ <img src="images/ber5.jpg" alt="Violet Earrings"  > </a>
+ <h5></h5>
+ <h5>Violet Earrings gift Set</h5>
+ <p class="price">$5 <br> Buy one get one Free</p>
+ </section>
+
+
+
+
+ </div><!-- end of row -->
+
+
+
+<div class="toTop">
+  <a href="#">&#x270C; <br>To Top</a>
+</div>
+<form action="checkout.html" method="post">
+<div class="checkout" >
+  <input type="submit" value="&#x1F6D2" onclick="passvalue();"></input>
+    <span id="cart">  </span><br></a>
+
+</div>
+</form>
+<!-- end of navigation -->
+
+<div class="modalWindow" id="openWModal">
+  <section class="content">
+    <a class="close" href="#">&#10005;</a>
+
+    <section class="info">
+        <img src="images/6.jpg" id="modalImage" alt="Apply Watch Screen Protector">
+
+        <div class="p" >
+          <h5 id="prodName"></h5>
+          <strong id="modalText">Soft Glass 3D Curved Full Screen Protector for Apple Watch iWatch 7 </strong>
+            <br>
+            <br>
+            <em id="prodSize">41mm 45mm</em>
+            <i> Condition:New</i>
+            <br>
+            <br>
+            <span id="origPrice"> $5.95 </span><b id="price"> Now $3.45 </b>
+    <a href="#" class="add" id="addToBag" onclick="addToBag()">ADD TO BAG</a>
+    </div>
+
+    </section>
+  </section>
+</div>
+</div>
+
+
+
+
+
+    <!--
+    <p>add 2 js application ,each js has event listener and one must hava a conditon statement or loop</p> -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+   <script src="project1.js" type="text/javascript"></script>
+  <script type="text/javascript">(function(){window['__CF$cv$params']={r:'6db98f33be7232ca',m:'QFye41RkNx.w._edZ8POwvmUXAswSul1tgbl7GIrgrQ-1644540378-0-AVjNZ9H2hc0SxNitY49Ves9ktKTOgIDTEQap7NBfmSKqAQVQgZyGS1Dk3bJ44C09GLlTyFQHw0jnafUNBIIclKcoVk71jreqtpau3YMKvfcC+KUvxGTnMNn314TbE+pCWO3ivdZ4d++hqvh549lraJcwHr+yqkoUIvAFmO3GvqSI7QvsGdFWCQu3MbAGzKZ/Xvi3wj62tFHKWbB1qOe86Zs=',s:[0x7539e7bb27,0x04292a1908],}})();</script>
+</div>
+<footer class="infoSection">
+
+  <br>
+  <br>
+  <br>
+  <p class="location">Location: New York, United States <br>PoP_Fast_Buy has been an eBay member since May 02, 2018</p>
+
+  <figure class="sociaIcon">
+    <a href="https://www.ebay.com/str/popfastbuy">
+      <img
+        src="images/ebay.png"
+        alt="ebayicon"
+        width="50px"
+        target="_blank"
+      />
+    </a>
+    <a href="https://www.tiktok.com/@ebay?" target="_blank"
+      ><img src="images/tiktok.png" width="50px" alt="Connect to tiktok"
+    /></a>
+    <a href="https://www.instagram.com/pop_fast_buy/" target="_blank"
+      ><img src="images/ins.jfif" width="50px" alt="Connect to Instergram"
+    /></a>
+    <a href="https://www.youtube.com/c/eBay" target="_blank"
+      ><img src="images/youtube.png" width="50px" alt="Connect to tiktok"
+    /></a>
+    <a href="mailto:lillian222b@gmail.com"
+      ><img src="images/email.png" alt="Email to" width="50px"
+    /></a>
+  </figure>
+  <p class="more">26 Followers <br>
+98% Positive feedback <br>
+979 Items sold</p>
+<br>
+<br>
+<br>
+<p class="copyright">&copy; Copyright 2022 Jingwen Guan PoP_Fast_Buy.html </p>
+<p class="copyright">EverUp Micro-Credential Program (NY Jobs CEO Council and CUNY)</p>
+
+<hr>
+</footer>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dc32687385d1855',m:'IlQVivl8fxbQJvfQK4BKco06QhzHpfSU5YNRuBhnycI-1644640948-0-AZH42vauG9kRR57KsG9tBfOUOP6wCakdGHRAFdNAK/ZIksUYpEaObtKIWunF8uwEa73yIJLXMz+hUK1ai/5EEIE4937otlRFPj+wtinT1GV27abTgFXY08WmmcTTH7xjVCgMbgr2Yi/G5mD2aFXzHiJfJzdTypc262vZ2EKG0VYsxMEO1F6VWE1Oyf9Rb9ekITc3yta/TRrihbLhSzlZ/rw=',s:[0x3bdf3daa40,0x8a2a9d5f18],}})();</script><script async src='/cdn-cgi/bm/cv/669835187/api.js'></script><script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dc9d8bf1cb21967',m:'vCrVWIcGu4P8ZOhuFU07ATt_W6rYw0eawXECyS5atss-1644711162-0-AVVjHUm/AYnqRyT56OT7Jt8+NpErWSSQALn72EXJPsLotR4/YojS9/SWrxfPx+Bu08x6m/ZzGQAO3oe8Blw9pdreOjjEJMAqOzXYlKJut6l0lTf2C8o2TBgok8TF95xiO6NdteZmvvHLNjVJZsN83uELX1k3n0aJgttPUgmC57ww/T/dfko156a2cal/p5/Jlg==',s:[0x4472999dd1,0x8286fd6e7e],}})();</script></body>
+</html>
