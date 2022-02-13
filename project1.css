@@ -119,10 +119,7 @@
   margin-right: auto;
   justify-content: center;
 }
-.col-md-2 {
-  margin: 0;
-  width: fit-content;
-}
+
 .toTop {
   border-radius: 10px;
 }
@@ -350,12 +347,14 @@
   float: left;
   position: relative;
 }
-.row {
-  width: auto;
+div.row {
+  width: 100%;
+  height: 100%;
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
   align-content: center;
+  justify-content: center;
 }
 .row p h5 {
   font-size: 1em;
@@ -371,7 +370,7 @@
 
 .infoSection {
   width: 100vw;
-  height: 400px;
+  height: auto;
   display: block;
   background-color: lightgray;
   float: left;
@@ -463,26 +462,26 @@
   animation-duration: 0.5s;
 }
 .fc1 {
-  opacity: 0;
+  opacity: 1;
   width: 10%;
   height: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 60%;
+  margin-left: 80%;
+  margin-right: 5%;
+  margin-top: 50%;
   position: fixed;
-  animation-duration: 0s;
+  animation-duration: 4s;
   animation-delay: 2s;
   animation-iteration-count: infinite;
 }
 .fc2 {
-  opacity: 0;
-  width: 20%;
-  height: 20%;
+  opacity: 1;
+  width: 12%;
+  height: 12%;
   margin-left: 2%;
   margin-right: 60%;
-  margin-top: 25%;
+  margin-top: 35%;
   position: fixed;
-  animation-duration: 1s;
+  animation-duration: 8s;
   animation-delay: 1s;
   animation-iteration-count: infinite;
 }
@@ -493,50 +492,51 @@
   margin-left: 60%;
   margin-right: 1%;
   position: fixed;
-  animation-duration: 1s;
+  animation-duration: 10s;
   animation-delay: 0.3s;
   animation-iteration-count: infinite;
 }
 .fc4 {
-  opacity: 0;
-  width: 50%;
-  height: 50%;
+  opacity: 1;
+  width: 20%;
+  height: 20%;
   margin-left: 5%;
   margin-right: 60%;
-  margin-top: 80%;
-  animation-duration: 1s;
-  animation-delay: 0.8s;
+  margin-top: 85%;
+  animation-duration: 5s;
+  animation-delay: 0.1s;
   animation-iteration-count: infinite;
-  position: absolute;
+  position: fixed;
 }
 .fc5 {
-  opacity: 0;
-  width: 15%;
-  height: 15%;
-  margin-left: 75%;
+  opacity: 1;
+  width: 12%;
+  height: 12%;
+  margin-left: 80%;
   margin-right: 1%;
-  margin-top: 38%;
-  animation-duration: 1s;
-  animation-delay: 0.5s;
+  margin-bottom: 40%;
+  animation-duration: 6s;
+  animation-delay: 0.2s;
   animation-iteration-count: infinite;
-  position: absolute;
+  position: fixed;
 }
 .fc6 {
-  opacity: 0;
+  opacity: 1;
   width: 8%;
   height: 8%;
   margin-left: 10%;
   margin-right: 10%;
-  animation-duration: 1s;
+  margin-bottom: 50%;
+  animation-duration: 5s;
   animation-delay: 0.6s;
   animation-iteration-count: infinite;
   position: fixed;
 }
 .fc7 {
-  opacity: 0;
-  margin-left: 10%;
-  margin-right: 10%;
-  animation-duration: 1s;
+  opacity: 1;
+  margin-left: 15%;
+  margin-top: 35%;
+  animation-duration: 4s;
   animation-delay: 0.3s;
   animation-iteration-count: infinite;
   position: fixed;
@@ -544,56 +544,57 @@
 .fc8 {
   width: 10%;
   height: 10%;
-  opacity: 0;
+  opacity: 1;
 
-  margin-right: 78%;
-  margin-top: 15%;
-  margin-bottom: 60%;
-  animation-duration: 1s;
+  margin-left: 60%;
+  margin-top: 60%;
+
+  animation-duration: 5s;
   animation-delay: 0.8s;
   animation-iteration-count: infinite;
-  position:fixed;
+  position: fixed;
 }
 .fc9 {
-  opacity: 0;
+  opacity: 1;
   margin-left: 90%;
   margin-right: 10%;
-  animation-duration: 1s;
+  margin-bottom: 70%;
+  animation-duration: 5s;
   animation-delay: 0.4s;
   animation-iteration-count: infinite;
-  position: absolute;
+  position: fixed;
 }
 .fc10 {
-  opacity: 0;
+  opacity: 1;
   margin-left: 45%;
   margin-right: 10%;
   margin-top: 50%;
   margin-bottom: 10%;
-  animation-duration: 1s;
+  animation-duration: 7s;
   animation-delay: 0.5s;
   animation-iteration-count: infinite;
   position: fixed;
 }
 .fc11 {
-  width: 3%;
-  height: 3%;
-  opacity: 0;
+  width: 5%;
+  height: 5%;
+  opacity: 1;
   margin-left: 45%;
   margin-right: 60%;
-  position: absolute;
-  animation-duration: 1s;
+  margin-top: 10%;
+  animation-duration: 6s;
   animation-delay: 0.2s;
   animation-iteration-count: infinite;
-  position: absolute;
+  position: fixed;
 }
 .fc12 {
   width: 10%;
   height: 10%;
-  opacity: 0;
-  margin-top: 80%;
+  opacity: 1;
+  margin-top: 98%;
   margin-left: 80%;
   margin-right: 5%;
-  animation-duration: 1s;
+  animation-duration: 5s;
   animation-delay: 0.9s;
   animation-iteration-count: infinite;
   position: fixed;
@@ -602,8 +603,8 @@
 .fc8,
 .fc9,
 .fc10 {
-  width: 8%;
-  height: 8%;
+  width: 5%;
+  height: 5%;
 }
 
 .fc1,
@@ -611,7 +612,8 @@
 .fc3,
 .fc4,
 .fc5,
-.fc6.fc7,
+.fc6,
+.fc7,
 .fc8,
 .fc9,
 .fc10,
@@ -619,23 +621,17 @@
 .fc12 {
   animation-name: blink;
 }
-@keyframes blink {
+/* @keyframes blink {
   0% {
     opacity: 0;
   }
   25% {
     opacity: 0.5;
   }
-  /* 50%{opacity: .75;}
-  75%{opacity: 1;}
-  100%{opacity: .75;}*/
-  /* 20%{opacity: 1; scale: 25%;} */
   30% {
     opacity: 1;
     scale: 50%;
   }
-  /* 50%{opacity: 1; scale: 75%;} */
-  /* 65%{opacity: 1; scale: 100%;} */
   89% {
     opacity: 1;
   }
@@ -654,35 +650,103 @@
   100% {
     opacity: 0;
   }
+} */
+
+@keyframes blink {
+  50% {
+    transform: translateY(50px);
+  }
 }
 
-@keyframes count {
-  0% {
-    opacity: 1;
-  }
-  30% {
-    transform: scale(1.5);
-    opacity: 1;
-  }
-  50% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 0;
-  }
-  93% {
-    opacity: 1;
-  }
-  95% {
-    opacity: 0;
-  }
-  99% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+.copyright {
+  text-align: center;
+  color: black;
+}
+/* <-- carousel code --> */
+.center-block {
+  float: none;
+}
+/* .col-md-10 {
+  width: 5% !important;
+} */
+.carousel-item {
+  height: 40vh;
+  /* width: 50; */
+  background-color: rgb(0, 0, 0);
+  /* color: white; */
+  position: relative;
+}
+.carousel-container {
+  position: absolute;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffc0cb' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+/*styling the controls of basic carousel */
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffc0cb' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+a > span.carousel-control-next-icon,
+a > span.carousel-control-prev-icon {
+  width: 100px;
+  height: 100px;
+}
+.carousel .carousel-indicators li {
+  background-color: pink;
+}
+.carousel .carousel-indicators li.active {
+  background-color: red;
+}
+.overlayImage {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+.storyAboutUs,
+.payment {
+  font-family: monospace;
+  color: gray;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-left: 5px;
+  margin-left: 10px;
+}
+.storyAboutUs a {
+  font-family: monospace;
+  color: pink;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.esc {
+  width: 50vw;
+  height: 50vh;
+  margin-left: 450px;
+  margin-right: auto;
+
+}
+@media only screen and (max-width: 450px) {
+  .esc{
+  width: 90vw;
+  height: 50vh;
+  margin-left: 5px;
+  margin-right: auto;
+}
+}
+
+@media only screen and (max-width: 900px) and (min-width: 450px) {
+  .esc{
+  width: 100vw;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
 }

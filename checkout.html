@@ -19,14 +19,14 @@
 
          <div class="slidetext">  <p>Join Membership For Latest Updates And Sales </p></div>
          <div class="slidetext">  <p>Free Shipping Over $50 In United State Of America</p>  </div>
-         <div class="slidetext">  <p>Money Back Grareendie</p></div>
+         <div class="slidetext">  <p>Money Back Guaranteed</p></div>
        </div>
      </div>
 
 
 
   <!-- <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head> -->
-  <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script><body>
+  <body>
 
     <div class="nav nav-tabs">
  <a href="index.html" class="nav-item nav-link active">Home</a>
@@ -36,11 +36,12 @@
  </div>
 
 
-
- <form action="thankyou.html" method="POST">
+<div class="conatiner-fluid">
+  <div class="row">
+ <form class="" action="thankyou.html" method="POST">
   <!-- <form action="{{url_for('thankyou')}}" method="POST"> -->
     <fieldset style="width:60%;">
-      <legend>CHECKOUT</legend>
+      <legend><br><br><h1>CHECKOUT</h1></legend>
       <label>Items in your bag: </label>
         <p id='pName'></p>
         <p id='pPrice'></p>
@@ -62,16 +63,52 @@
         }
         let quantity = localStorage.getItem('totalItems');
         let totalCost = localStorage.getItem('totalPrice');
-        pPrice.innerHTML = `Items:${quantity} Total: ${totalCost}`
+        pPrice.innerHTML = `Items: ${quantity} Total: ${totalCost}`
       </script>
-      <label for="userName">Enter userName <input type="text" name="usrName" placeholder="Type your name.."></label>
+      <br>
+      <a href="https://www.visa.com">
+        <img  src="images/visa.png" alt="Connect to VISA"width="50px"  target="_blank" margin-left="10px" />
+      </a>
+   <a href="https://www.paypal.com" target="_blank"
+        ><img src="images/papal.jpg" width="50px" alt="Connect to PayPal"
+      /></a>
+      <a href="https://www.americanexpress.com/" target="_blank"
+        ><img src="images/AE.jfif" width="50px" alt="Connect to Instergram"
+      /></a>
+      <a href="https://www.mastercard.com/c/eBay" target="_blank"
+        ><img src="images/mc.jpg" width="50px" alt="Connect to mastercard.com"
+      /></a>
+      <a href="https://apps.apple.com/us/app/google-pay-save-pay-manage/id1193357041"
+        ><img src="images/ggp.png" alt="GooglePay" width="50px"/></a>
+        <a href="https://www.unionpayintl.com/en/" target="_blank"
+          ><img src="images/up.png" width="50px" alt="Connect to UnionPay"
+        /></a>
+        <a href="https://global.alipay.com/platform/site/ihome"
+          ><img src="images/alipay.png" alt="Alipay.com" width="50px"/></a>
+          <br><br>
+          <label for="paymentType">Select payment method: </label>
+          <select name="paymentType" size="1">
+            <!-- <select name="instruments" multiple="multiple">  </select> -->
+            <option value="v">VISA</option>
+            <option value="mc">MASTER CARD</option>
+            <option value="ae">AMERICAN EXPRESS</option>
+            <option value="pp">PAYPAL</option>
+            <option value="ap">ALIPAY</option>
+            <option value="up">UNIONPAY</option>
+            <option value="gp">GOOGLEPAY</option>
+          </select>
+          <br>
+        <br>
+         <label for="userName">Enter Card Number: <input type="text" name="card number" placeholder="Credit card number.."></label><br><hr>
+      <label for="userName">Enter userName: <input type="text" name="usrName" placeholder="Type your name.."></label>
       <label for="email">Enter email address: <input type="text" name="email" placeholder="Type your email address..."></label>
       <input type="submit" value="Check Out" style="margin-top:2em;" onclick="localStorage.clear();"></input>
     </fieldset>
 
 
   </form>
-  <div class="container">
+</div>
+</div>
 </div>
 
 
@@ -88,42 +125,54 @@
 
    <script src="project1.js" type="text/javascript"></script>
   <script type="text/javascript">(function(){window['__CF$cv$params']={r:'6db98f33be7232ca',m:'QFye41RkNx.w._edZ8POwvmUXAswSul1tgbl7GIrgrQ-1644540378-0-AVjNZ9H2hc0SxNitY49Ves9ktKTOgIDTEQap7NBfmSKqAQVQgZyGS1Dk3bJ44C09GLlTyFQHw0jnafUNBIIclKcoVk71jreqtpau3YMKvfcC+KUvxGTnMNn314TbE+pCWO3ivdZ4d++hqvh549lraJcwHr+yqkoUIvAFmO3GvqSI7QvsGdFWCQu3MbAGzKZ/Xvi3wj62tFHKWbB1qOe86Zs=',s:[0x7539e7bb27,0x04292a1908],}})();</script>
-  <footer class="infoSection">
-
-    <br>
-    <br>
-    <br>
-    <p class="location">Location: New York, United States <br>PoP Fast Shop has been an eBay member since May 02, 2018</p>
-    <figure class="sociaIcon">
-      <a href="https://www.ebay.com/str/popfastbuy">
-        <img
-          src="images/ebay.png"
-          alt="ebayicon"
-          width="50px"
-          target="_blank"
-        />
-      </a>
-      <a href="https://www.tiktok.com/@ebay?" target="_blank"
-        ><img src="images/tiktok.png" width="50px" alt="Connect to tiktok"
-      /></a>
-      <a href="https://www.instagram.com/pop_fast_buy/" target="_blank"
-        ><img src="images/ins.jfif" width="50px" alt="Connect to Instergram"
-      /></a>
-      <a href="https://www.youtube.com/c/eBay" target="_blank"
-        ><img src="images/youtube.png" width="50px" alt="Connect to tiktok"
-      /></a>
-      <a href="mailto:lillian222b@gmail.com"
-        ><img src="images/email.png" alt="Email to" width="50px"
-      /></a>
-    </figure>
-    <p class="more">26 Followers <br>
-  98% Positive feedback <br>
-  979 Items sold</p>
-  <br>
-  <br>
-  <br>
-  <hr>
-  </footer>
 </div>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dc329f05a738c3b',m:'IFv.5Qy7GRvbs.s7RJf5TKpYFApyMCaSrng0ZiqYA4c-1644641088-0-AUk5ItsdTKxHN669j7fpAFBufNdKUG/CDe8qtSn4qYd1bRMHjs/YEKebE18HbVvgVMaR/Fm4mVwRZheiTqh7kC2ZDS27QsibU1psSaHOsqcMU2qGZQS5saHF5cqqWcTt2/np0RuZNPXlphLqcQYc/taMzeSrz8EPBDH1nLID2qDmcHIIwXk1UJFn235WHITZdfkT+0GyCh/TBhofTMPB3C4=',s:[0x6492fd5a86,0x9dbc82b945],}})();</script></body>
+<footer class="infoSection">
+  <br />
+  <br />
+  <br />
+
+  <br />
+  <h5 class="location">
+    Location: New York, United States <br />PoP_Fast_Buy has been an eBay
+    member since May 02, 2018
+  </h5>
+  <figure class="sociaIcon">
+    <a href="https://www.ebay.com/str/popfastbuy">
+      <img  src="images/ebay.png" alt="ebayicon"width="50px"  target="_blank"/>
+    </a>
+    <a href="https://www.tiktok.com/@cunyedu?" target="_blank"
+      ><img src="images/tiktok.png" width="50px" alt="Connect to tiktok"
+    /></a>
+    <a href="https://www.instagram.com/pop_fast_buy/" target="_blank"
+      ><img src="images/ins.jfif" width="50px" alt="Connect to Instergram"
+    /></a>
+    <a href="https://www.youtube.com/c/eBay" target="_blank"
+      ><img src="images/youtube.png" width="50px" alt="Connect to tiktok"
+    /></a>
+    <a href="mailto:lillian222b@gmail.com"
+      ><img src="images/email.png" alt="Email to" width="50px"/></a>
+  </figure>
+
+  <h4 class="more">
+    28 Followers <br />
+    97.4% Positive feedback <br />
+    1.0K Items sold <br />
+    <br />
+    <br />
+    <br />
+  </h4>
+  <hr />
+</div>
+<p class="copyright">&copy; Copyright 2022 Jingwen Guan PoP_Fast_Buy.html </p>
+<p class="copyright">EverUp Micro-Credential Program (NY Jobs CEO Council and CUNY)</p>
+
+</footer>
+</body>
 </html>
+
+
+
+
+
+
+
